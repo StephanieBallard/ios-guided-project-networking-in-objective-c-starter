@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A85A49124C0B837007F93C4 /* SABQuakeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A85A49024C0B837007F93C4 /* SABQuakeFetcher.m */; };
 		BD33944E23FF22FC0048AA4C /* QuakeWithNullMag.json in Resources */ = {isa = PBXBuildFile; fileRef = BD33944D23FF22FC0048AA4C /* QuakeWithNullMag.json */; };
 		BD5CDCFD2423C5C10062E885 /* LSIQuakeResultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CDCFC2423C5C10062E885 /* LSIQuakeResultsTests.m */; };
 		BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A85A48F24C0B837007F93C4 /* SABQuakeFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SABQuakeFetcher.h; sourceTree = "<group>"; };
+		5A85A49024C0B837007F93C4 /* SABQuakeFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SABQuakeFetcher.m; sourceTree = "<group>"; };
 		BD33944D23FF22FC0048AA4C /* QuakeWithNullMag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuakeWithNullMag.json; sourceTree = "<group>"; };
 		BD5CDCFC2423C5C10062E885 /* LSIQuakeResultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuakeResultsTests.m; sourceTree = "<group>"; };
 		BDFC8F7D23FDA09F00A39B21 /* Quakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +147,8 @@
 				BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */,
 				BDFC8F8323FDA09F00A39B21 /* SceneDelegate.h */,
 				BDFC8F8423FDA09F00A39B21 /* SceneDelegate.m */,
+				5A85A48F24C0B837007F93C4 /* SABQuakeFetcher.h */,
+				5A85A49024C0B837007F93C4 /* SABQuakeFetcher.m */,
 				BD5CDCFF2423C6D30062E885 /* Demo Content */,
 				BD5CDCFE2423C6C90062E885 /* Quake Model */,
 				BDFC8F8923FDA09F00A39B21 /* Main.storyboard */,
@@ -298,6 +303,7 @@
 				BDFC8FBD23FDA4FB00A39B21 /* LSIFirstResponder.m in Sources */,
 				BDFC8FB323FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB523FDA12B00A39B21 /* LSILog.m in Sources */,
+				5A85A49124C0B837007F93C4 /* SABQuakeFetcher.m in Sources */,
 				BDFC8FCB23FDC35900A39B21 /* LSIQuakeResults.m in Sources */,
 				BDFC8FC123FDAFBA00A39B21 /* LSIQuake.m in Sources */,
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
